@@ -131,5 +131,5 @@ local FunctionList = {
     } 
 for i, v in pairs(FunctionList) do
     local E,R = pcall(v.f)
-    print(v.f..": "..tostring(R))
+    print(tostring(v.f)..": "..tostring(R))
 end
